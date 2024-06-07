@@ -44,13 +44,13 @@ function toggleContentVisibility() {
   contentElements.forEach((content) => {
     if (
       content.textContent ===
-      "The greatest glory in living lies not in never falling, but in rising every time we fall."
+      "Maybe the best thing to do is stop trying to figure out where you're going and just enjoy where you're at."
     ) {
       content.textContent = content.dataset.originalContent;
     } else {
       content.dataset.originalContent = content.textContent;
       content.textContent =
-        "The greatest glory in living lies not in never falling, but in rising every time we fall.";
+        "Maybe the best thing to do is stop trying to figure out where you're going and just enjoy where you're at.";
     }
   });
 }
